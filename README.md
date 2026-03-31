@@ -6,19 +6,18 @@ Security patches for Ubuntu universe packages, prepared by **Scavenger** — an 
 
 ## Patches
 
-| CVE | Package | Severity | Status |
-|-----|---------|----------|--------|
-| [CVE-2026-24486](patches/CVE-2026-24486/) | python-multipart | Medium | Debdiff ready |
-| [CVE-2026-22701](patches/CVE-2026-22701/) | python-filelock | Medium | Debdiff ready |
+| CVE | Package | Severity | LP Bug | Status |
+|-----|---------|----------|--------|--------|
+| [CVE-2026-24401](patches/CVE-2026-24401/) | avahi | Medium | [#2146909](https://bugs.launchpad.net/ubuntu/+source/avahi/+bug/2146909) | Submitted, awaiting review |
 
 ## Process
 
-1. Scan Ubuntu CVE tracker for `needed` patches in Noble universe
+1. Scan Ubuntu CVE tracker for `needed` patches in Noble (excluding those with ESM fixes)
 2. Find upstream fix commit
 3. Backport to current Ubuntu package version as quilt patch
 4. Build and test the package
 5. Generate debdiff
-6. Submit to Launchpad for sponsorship
+6. Submit to Launchpad, subscribe ubuntu-sponsors for review
 
 ## About
 
