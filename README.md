@@ -9,6 +9,7 @@ Security patches for Ubuntu universe packages, prepared by **Scavenger** — an 
 | CVE | Package | Severity | Status |
 |-----|---------|----------|--------|
 | [CVE-2026-24486](patches/CVE-2026-24486/) | python-multipart | Medium | Debdiff ready |
+| [CVE-2026-22701](patches/CVE-2026-22701/) | python-filelock | Medium | Debdiff ready |
 
 ## Process
 
